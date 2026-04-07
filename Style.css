@@ -20,11 +20,12 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.avatar {
+.Profile_pic {
 border: 50%;
 width: 20%;
 border-radius:20%;
 }
+
 header {
     font-family: 'Arial', sans-serif;
     background-color: #e6e6f1;
@@ -40,22 +41,26 @@ Name_Info {
     justify-content: center;
 }
 Name_Info h1 {
-    margin: 0; /* Removes all space around the name */
+    margin: 0;
     font-size: 28px;
     line-height: 1.2;
 }
 Name_Info .subtitle {
-    margin: 2px 0 8px 0; /* Small gap above, slightly more below */
+    margin: 2px 0 8px 0; 
     font-weight: bold;
     color: var(--ink-soft);
 }
 .contact-bar, .social-buttons {
     margin: 0;
     font-size: 0.9rem;
-    line-height: 1.4; /* Controls spacing between the lines of contact info */
+    line-height: 1.4; 
 }
-.social-buttons {
-    margin-top: 5px; /* Adds just a tiny bit of breathing room for the links */
+.social-btn {
+    margin-top: 5px; 
+    background-color: gainsboro;
+    color: #5c8efb;
+    padding: 4px 12px;
+    border-radius: 20px;
 }
 body {
   background-color: #F0F1F4;
@@ -78,5 +83,5 @@ h3 {
 }
 
 footer {
-  align-self: center;
+  background-color: whitesmoke;
 }
